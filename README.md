@@ -1,23 +1,29 @@
 # Análise dos candidatos a deputados no pleito de 2014
 
-## Summary
-
-* [Goal](#goal)
-* [Project Development](#project-development)
-* [Development Environment](#environment)
-* [Dataset](#dataset)
-* [Project Structure](#structure)
-
-<h2 id='goal'>Goal</h2>
+### Goal
 
 The goal this analysis is to obtain insights on the data of the Wiki Challange and to 
 predict if a user is likely to contribute again after an update was reverted. 
 
-<h2 id='project-development'>Project Development</h2>
+### Project Structure
 
-The project was started by making some exploratory analysis on the datasets described on the section [Dataset](#dataset). All insights can be seen on the [Insights](#insights) section. 
+This project was divided in two main folders: 
 
-<h2 id='environment'>Development Environment</h2>
+* **data**: all available data
+* **notebook**: all notebooks used on this project
+
+```
+|-- README.md
+|
+|-- data
+|   |-- candidates.csv
+|-- notebooks
+|   |-- analysis.ipynb
+|   
+`-- requirements.txt
+```
+
+### Development Environment
 
 This analysis was made using Python 3.7.
 
@@ -30,7 +36,7 @@ Then install the requirements using *pip*:
 `$ pip install -r requirements.txt`
 
 
-<h2 id='dataset'>Dataset</h2>
+### Dataset
 
 The data is available [on this kaggle page](https://www.kaggle.com/eliezerfb/candidatos-deputado-federal-e-estadual-2014).
 Dataset was divided into 5 separated files.
@@ -59,22 +65,3 @@ The list of information and its metadata that were available can be observed bel
 | reverted_revision_id | -                                       | Integer      |
 | delta                | -                                       | Integer      |
 | cur_size             | -                                       | Integer      |
-
-
-<h3 id='structure'> Project Structure</h3>
-
-This project was divided in two main folders: 
-
-* **data**: all available data
-* **notebook**: all notebooks used on this project
-
-```
-|-- README.md
-|
-|-- data
-|   |-- candidates.csv
-|-- notebooks
-|   |-- analysis.ipynb
-|   
-`-- requirements.txt
-```
