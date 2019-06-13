@@ -25,7 +25,7 @@ This project was divided in two main folders:
 This analysis was made using Python 3.7.
 
 ```bash
-$ git clone https://github.com/julianyraiol/analise-candidatos-deputados-2014.git
+$ git clone https://github.com/julianyraiol/analysis-of-brazilian-candidates-2014.git
 $ cd analise-candidatos-deputados-2014
 ```
 
@@ -38,7 +38,7 @@ Then install the requirements using *pip*:
 In a terminal or command window, inside the project,  run one of the following commands:
 
 ```bash
-$ cd analise-candidatos-deputados-2014
+$ cd analysis-of-brazilian-candidates-2014
 $ jupyter notebook
 ```
 
